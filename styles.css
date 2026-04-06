@@ -146,6 +146,15 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: var(--o
 .project-detail-content { padding: .25rem .2rem .5rem; }
 .highlight-grid { display:grid; grid-template-columns: repeat(3,1fr); gap:1rem; margin-top:1.5rem; }
 .notice { color: var(--muted); font-size: .95rem; }
+
+.hero-panel .tag { background: rgba(255,255,255,.09); border:1px solid rgba(255,255,255,.13); color:#f8f2ec; }
+.project-detail .tag, .highlight-card .tag, .project-card .tag, .area-card .tag { background:#fff1e4; border:1px solid #f1d4ba; color: var(--orange-dark); }
+.contact-panel { background: rgba(17,17,17,.58); border:1px solid rgba(255,255,255,.10); }
+.contact-panel p, .contact-panel .small { color:#f2e7db; }
+.contact-panel .socials a { color:#fff; font-weight:600; }
+.contact-panel .socials a:hover { color:#ffd2b8; }
+.contact-panel .btn-light { background:#fff; color:#171412; }
+.contact-panel .btn-secondary { color:#fff; }
 @media (max-width: 1080px) {
   .service-grid, .trust-grid, .project-grid, .highlight-grid { grid-template-columns: repeat(2,1fr); }
   .hero-inner, .story-grid, .review-wrap, .contact-grid, .area-grid { grid-template-columns: 1fr; }
