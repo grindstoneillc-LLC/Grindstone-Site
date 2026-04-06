@@ -5,7 +5,7 @@
   --surface: #ffffff;
   --surface-soft: #f7f1e8;
   --text: #181512;
-  --muted: #665f58;
+  --muted: #57504a;
   --line: #dfd6cb;
   --dark: #111111;
   --dark-2: #1d1a17;
@@ -100,7 +100,7 @@ p { margin: 0; color: var(--muted); }
 .project-grid { grid-template-columns: repeat(3,1fr); margin-top: 2rem; }
 .project-card img { width:100%; height: 230px; object-fit:cover; border-top-left-radius: 28px; border-top-right-radius:28px; }
 .project-card-content { padding: 1.4rem; }
-.project-location { color: var(--orange-dark); font-size: .78rem; text-transform: uppercase; letter-spacing: .18em; font-weight: 800; }
+.project-location { color: #93460e; font-size: .78rem; text-transform: uppercase; letter-spacing: .18em; font-weight: 800; }
 .dark-section { background: #12100f; color: #fff; }
 .dark-section p { color: #ddd2c6; }
 .review-wrap { display:grid; grid-template-columns: .9fr 1.1fr; gap: 1.5rem; margin-top: 2rem; }
@@ -150,8 +150,8 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: var(--o
 .hero-panel .tag { background: rgba(255,255,255,.09); border:1px solid rgba(255,255,255,.13); color:#f8f2ec; }
 .project-detail .tag, .highlight-card .tag, .project-card .tag, .area-card .tag { background:#fff1e4; border:1px solid #f1d4ba; color: var(--orange-dark); }
 .contact-panel { background: rgba(17,17,17,.58); border:1px solid rgba(255,255,255,.10); }
-.contact-panel p, .contact-panel .small { color:#f2e7db; }
-.contact-panel .socials a { color:#fff; font-weight:600; }
+.contact-panel p, .contact-panel .small { color:#fff4e9; }
+.contact-panel .socials a { color:#fff7f0; font-weight:700; }
 .contact-panel .socials a:hover { color:#ffd2b8; }
 .contact-panel .btn-light { background:#fff; color:#171412; }
 .contact-panel .btn-secondary { color:#fff; }
