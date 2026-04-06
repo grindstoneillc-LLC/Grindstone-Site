@@ -174,3 +174,5 @@ input:focus, textarea:focus, select:focus { outline: none; border-color: var(--o
   .brand img { height: 44px; }
   .brand-name { font-size: 1.02rem; }
 }
+
+.review-stars { margin-bottom: .75rem; color: #fbbf24; letter-spacing: .18em; font-size: 1.05rem; }
